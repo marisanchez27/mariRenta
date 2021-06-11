@@ -177,7 +177,7 @@ public boolean RegisterUser(String email){
                 StorageReference imagesRef = _storageRef.
                                                                 child(Collections.User.USERS + "/"
                                                                               + email);
-                byte[] data = _multimedia.ImgaByte(R.mipmap.ic_user);
+                byte[] data = _multimedia.ImgaByte(R.mipmap.user);
                 UploadTask uploadTask = imagesRef.putBytes(data);
                 uploadTask.addOnFailureListener((exception) -> {
                     value = false;

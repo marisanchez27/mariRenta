@@ -50,7 +50,7 @@ protected void onCreate(Bundle savedInstanceState){
         window.setStatusBarColor(this.getResources().getColor(R.color.add, null));
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("297609012126-qgr87ef20g7e8fum7d4g3hn3optluqh4.apps.googleusercontent.com")
+                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 

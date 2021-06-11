@@ -451,7 +451,7 @@ private void CancelUser(){
     _binding.nameEditText.setText("");
     _binding.lastnameEditText.setText("");
     _binding.emailEditText.setText("");
-    _binding.imageViewUser.setImageResource(R.mipmap.ic_user);
+    _binding.imageViewUser.setImageResource(R.mipmap.user);
     item.setSelectedItemPosition(0);
     _dataUser = null;
     _binding.passwordTextInput.setVisibility(View.VISIBLE);
