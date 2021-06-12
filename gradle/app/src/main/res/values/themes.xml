@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MariRenta" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorButtonNormal">@color/colorPink</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MariRenta.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MariRenta.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MariRenta.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="CardViewTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPaddingBottom">3dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">@color/add</item>
+    </style>
+    <style name="CardViewTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">100dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/use</item>
+    </style>
+    <style name="CardViewTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPaddingBottom">3dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">@color/use</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+    </style>
+</resources>
